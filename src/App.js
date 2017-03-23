@@ -4,7 +4,11 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-        <div className={'App'}>Hello, TIS-100</div>
+        <div className={'App'}>
+          <div className={'pane button'} id={'welcome'}>
+            Hello TIS-100
+          </div>
+        </div>
     );
   }
 }
