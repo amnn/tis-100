@@ -5,15 +5,19 @@ import './TISButton.css';
 
 type Props = {
   label: string,
-  tooltip?: string,
+  title?: string,
 };
 
 class TISButton extends Component {
   props: Props;
 
   render() {
+    const title = this.props.title || this.props.label;
+
     return (
-      <a href="#" className={'tis-button pane'}>
+      <a href="#"
+         className={'tis-button pane'}
+         title={title}>
         {this.props.label}
       </a>
     );

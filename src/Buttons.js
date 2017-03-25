@@ -10,10 +10,10 @@ class Buttons extends Component {
     return (
       <div className={'Buttons'}>
         <TISButton label="Stop"/>
-        <TISButton label="Back"/>
+        <TISButton label="Back" title="Step Backward"/>
         <TISButton label="Play"/>
-        <TISButton label="Fwd"/>
-        <TISButton label="F-Fwd"/>
+        <TISButton label="Fwd" title="Step Forward"/>
+        <TISButton label="F-Fwd" title="Fast Forward"/>
       </div>
     );
   }
