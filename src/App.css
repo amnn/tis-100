@@ -1,46 +1,10 @@
-@font-face {
-    font-family: 'silkscreennormal';
-    src: url('slkscr-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-html, body, #root {
-    height: 100%;
-}
-
 .App {
-    background-color: #000;
-    color: #fff;
-    display:flex;
-    flex-direction: row;
-    font-family: "silkscreennormal", "monospace";
-    font-size: large;
-    height: 100%;
-    justify-content: center;
-    width: 100%;
-}
-
-#welcome {
-    height: 1em;
-    margin: 1em;
-    padding: 0.5em;
-    width: 10em;
-}
-
-.pane {
-    border-color: #bbb;
-    border-style: double;
-    border-width: 0.25em;
-}
-
-.button {
-    box-shadow: 0.25em 0.25em 0 0 #666;
-}
-
-.button:active {
-    left: 0.25em;
-    box-shadow: none;
-    position: relative;
-    top: 0.25em;
+  background-color: #000;
+  color: #fff;
+  display:flex;
+  flex-direction: row;
+  font-size: large;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
 }
