@@ -1,0 +1,9 @@
+.Controls {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.io-part {
+  flex-grow: 1;
+}

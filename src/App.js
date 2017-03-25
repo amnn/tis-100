@@ -10,8 +10,12 @@ class App extends Component {
   render() {
     return (
       <div className={'App'}>
-        <Controls />
-        <TIS />
+        <div className={'controls-part'}>
+          <Controls />
+        </div>
+        <div className={'tis-part'}>
+          <TIS />
+        </div>
       </div>
     );
   }

@@ -10,8 +10,12 @@ class Controls extends Component {
   render() {
     return (
       <div className={'Controls'}>
-        <IO />
-        <Buttons />
+        <div className={'io-part'}>
+          <IO />
+        </div>
+        <div className={'buttons-part'}>
+          <Buttons />
+        </div>
       </div>
     );
   }

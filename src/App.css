@@ -1,10 +1,18 @@
 .App {
+  align-items: stretch;
   background-color: #000;
   color: #fff;
   display:flex;
   flex-direction: row;
   font-size: large;
   height: 100%;
-  justify-content: center;
   width: 100%;
+}
+
+.controls-part {
+  height: inherit;
+}
+
+.tis-part {
+  flex-grow: 1;
 }
