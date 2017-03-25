@@ -17,15 +17,16 @@ class TISButton extends Component {
   render() {
     const title = this.props.title || this.props.label;
     const icon  = this.props.icon
-          ? <Icon name={this.props.icon}/>
+          ? <Icon name={this.props.icon} size={'2x'} className={'icon'}/>
           : null;
+    const label = (<span>{this.props.label}</span>);
 
     return (
       <a href="#"
-         className={'tis-button pane'}
+         className={'TISButton pane'}
          title={title}>
         {icon}
-        {this.props.label}
+        {label}
       </a>
     );
   }

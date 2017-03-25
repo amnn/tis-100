@@ -1,15 +1,21 @@
-.tis-button {
+.TISButton {
   box-shadow: 0.25em 0.25em 0 0 #888;
   color: inherit;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin: 0.5em;
   padding: 0.5em;
+  text-align: center;
   text-decoration: none;
 }
 
-.tis-button:active {
+.TISButton:active {
   left: 0.25em;
   box-shadow: none;
   position: relative;
   top: 0.25em;
+}
+
+.icon {
+  margin-bottom: 0.1em;
 }
