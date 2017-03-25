@@ -1,14 +1,18 @@
+/* @flow */
+
 import React, { Component } from 'react';
 import './App.css';
+
+import Controls from './Controls.js';
+import TIS from './TIS.js';
 
 class App extends Component {
   render() {
     return (
-        <div className={'App'}>
-          <div className={'pane button'} id={'welcome'}>
-            Hello TIS-100
-          </div>
-        </div>
+      <div className={'App'}>
+        <Controls />
+        <TIS />
+      </div>
     );
   }
 }
