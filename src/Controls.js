@@ -1,10 +1,10 @@
 /* @flow */
 
 import React, { Component } from 'react';
-import './Controls.js';
+import './Controls.css';
 
-import IO from './IO.js';
-import Buttons from './Buttons.js'
+import IO from './IO';
+import Buttons from './Buttons'
 
 class Controls extends Component {
   render() {

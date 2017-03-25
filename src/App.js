@@ -3,8 +3,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Controls from './Controls.js';
-import TIS from './TIS.js';
+import Controls from './Controls';
+import TIS from './TIS';
 
 class App extends Component {
   render() {

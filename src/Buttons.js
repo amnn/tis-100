@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import './Buttons.css';
 
-import TISButton from './TISButton.js';
+import TISButton from './TISButton';
 
 class Buttons extends Component {
   render() {
