@@ -1,0 +1,7 @@
+.Inputs {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  justify-content: space-around;
+  width: 100%;
+}

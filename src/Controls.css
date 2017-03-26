@@ -4,6 +4,19 @@
   height: inherit;
 }
 
-.io-part {
+.Controls > .title {
+  text-align: center;
+}
+
+.Controls > .title::before {
+  content: '\2014 ';
+}
+
+.Controls > .title::after {
+  content: ' \2014';
+}
+
+.inputs-part, .outputs-part {
+  display: flex;
   flex-grow: 1;
 }
